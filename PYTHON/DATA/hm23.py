@@ -1,0 +1,5 @@
+word = input()
+digit_word = sum(c.isdigit() for c in word)
+letter_word = sum(c.isalpha() for c in word)
+print("LETTERS",letter_word)
+print("DIGITS",digit_word)

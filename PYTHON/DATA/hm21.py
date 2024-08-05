@@ -1,0 +1,5 @@
+input = input().split(',')
+sort = sorted(input)
+join = ','.join(sort)
+print(sort)
+print(join)
